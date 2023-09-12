@@ -1,0 +1,53 @@
+pwd
+/home/gigl/Bureau/INF2610/INF2610-TP0
+cd /home/gigl/Bureau/INF2610/INF2610-TP0
+echo
+initlab---Hiver23.pdf
+Makefile
+minisys.asm
+output1.txt
+output2.txt
+output3.txt
+output4.txt
+part1.c
+part2.c
+ls | sort
+echo
+initlab---Hiver23.pdf
+Makefile
+minisys.asm
+output1.txt
+output2.txt
+output3.txt
+output4.txt
+part1.c
+part2.c
+echo "message1"
+message1
+echo "message1" > foo.txt
+echo "message2" >> foo.txt
+cat foo.txt
+message1
+message2
+unlink foo.txt
+ls
+echo
+initlab---Hiver23.pdf
+Makefile
+minisys.asm
+output1.txt
+output2.txt
+output3.txt
+output4.txt
+part1.c
+part2.c
+uname
+Linux
+uname -s
+Linux
+uname -r
+5.19.6-200.fc36.x86_64
+uname -o
+GNU/Linux
+uname -m
+x86_64

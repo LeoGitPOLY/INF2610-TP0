@@ -15,7 +15,7 @@
 
 int main () {
     char textInFile;
-    char docPath[] = "./output2.txt";
+    char docPath[] = "output2.txt";
     int userInputDescriptor = 0;
 
     int fd = open(docPath, O_WRONLY | O_TRUNC);

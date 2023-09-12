@@ -18,14 +18,14 @@
 
 int main () {
     // TODO
-    char text;
+    char textInFile;
     char docPath[] = "./output2.txt";
     int fd = open(docPath, O_WRONLY | O_TRUNC);
-
+    int userStream = 0;
     printf("Saisissez votre texte suivi de CTRL-D :\n");
     
-    while (read(0, &text, 1)){
-        write(fd, &text, 1);
+    while (read(userStream, &textInFile, 1)){
+        write(fd, &textInFile, 1);
     }
     close(fd);
     return 0;

@@ -14,12 +14,20 @@
 // -------------------------------------------------
 #include <fcntl.h>
 #include <unistd.h>
-
+#include <stdio.h>
 
 int main () {
     // TODO
+    char text;
     char docPath[] = "./output2.txt";
-    int fd = open(docPath, O_TRUNC);
+    int fd = open(docPath, O_WRONLY | O_TRUNC);
+
+    printf("Saisissez votre texte suivi de CTRL-D :\n");
+    
+    while (read(0, &text, 1)){
+        write(fd, &text, 1);
+    }
+    close(fd);
     return 0;
 }
     

@@ -51,3 +51,11 @@ uname -o
 GNU/Linux
 uname -m
 x86_64
+echo $PATH
+/home/gigl/.local/bin:/home/gigl/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/opt/pmccabe:/opt/Umlet:/opt/pmccabe:/opt/Umlet
+which sleep
+/usr/bin/sleep
+sleep 1
+/usr/bin/sleep 1
+../../../../../usr/bin/sleep 1
+sleep 1000 ^C

@@ -16,7 +16,6 @@
 int main () {
     char textInFile;
     char docPath[] = "output2.txt";
-    int userInputDescriptor = 0;
     int numberCharacter = 1;
 
     int fd = open(docPath, O_WRONLY | O_TRUNC);
@@ -27,7 +26,7 @@ int main () {
     
     printf("Saisissez votre texte suivi de CTRL-D :\n");
     
-    while (read(userInputDescriptor, &textInFile, numberCharacter)){
+    while (read(STDIN_FILENO, &textInFile, numberCharacter)){
         write(fd, &textInFile, numberCharacter);
     }
     close(fd);

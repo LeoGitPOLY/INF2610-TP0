@@ -8,6 +8,7 @@
 // Si besoin, ajouter ici les directives d'inclusion et les déclarations globales
 // -------------------------------------------------
 #include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 // -------------------------------------------------
 

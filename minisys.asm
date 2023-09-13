@@ -4,7 +4,8 @@
 ; Initlab - minisys.asm
 ;
 ; ajoutez vos noms, prénoms et matricules
-;
+; Aurelie Nichols - 2142404
+; Leonard Pouliot - 2150965
 ; Documentation NASM: http://www.nasm.us/doc/nasmdoc3.html
 ;
 ; Déclarations de constantes (equivalent à #define)
